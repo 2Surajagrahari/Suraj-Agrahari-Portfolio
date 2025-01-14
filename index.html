@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Agrahari</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_circle" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <span class="typewriter"><h3>SURAJ AGRAHARI</h3></span>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-card" class="btn">Get in Touch</a></li>
+            </ul>
+        </div>
+        
+        <div class="image">
+            <img class="photo" src="image.jpg" alt="myphoto" >
+        </div>
+        <div class="intro">
+            <button class="name">Suraj Agrahari</button>
+        </div>
+
+        <div class="description">
+            <h1>Hey I'm...</h1>
+            <h1 class="suraj" style="color: rgba(250, 175, 0, 0.914);">Suraj Agrahari....</h1>
+        </div>
+        <div class="summary">
+            <h3>A passionate second-year B.Tech student specializing in Computer Science and Engineering.</h3>
+            <h3>I have interest in Web development, problem-solving, and exploring the latest technologies.</h3>
+            <h3>Currently, I’m building a strong foundation in programming and working on projects to enhance my skills.</h3>
+            <h3>Welcome to my portfolio, where I showcase my journey and accomplishments!</h3>
+        </div>
+
+        <div class="cv">
+            <button class="view" onclick="location.href='document/SURAJ AGRAHARI CV.pdf.pdf';">View CV</button>
+            <button class="Download"><a href="document/SURAJ AGRAHARI CV.pdf.pdf" download="SurajAgrahari_CV" class="download" style="text-decoration: none; color: black;">
+                Download CV</a></button>
+        </div>
+        <div class="set">
+        <div class="wrapper">
+        <div class="technology">
+            <img src="python-language.png" alt="python" class="icon">
+            <img src="c-language.png" alt="c++" class="icon">
+            <img src="java.png" alt="java" class="icon">
+            <img src="javascript.png" alt="javascript" class="icon">
+            <img src="html.png" alt="html" class="icon">
+            <img src="css.png" alt="css" class="icon">
+            <img src="mysql.png" alt="sql" class="icon">
+            <img src="react.png" alt="react" class="icon">
+            <img src="git.png" alt="git" class="icon">
+            <img src="github.png" alt="github" class="icon">
+            <!-- duplicate -->
+            <img src="python-language.png" alt="python" class="icon">
+            <img src="c-language.png" alt="c++" class="icon">
+            <img src="java.png" alt="java" class="icon">
+            <img src="javascript.png" alt="javascript" class="icon">
+            <img src="html.png" alt="html" class="icon">
+            <img src="css.png" alt="css" class="icon">
+            <img src="mysql.png" alt="sql" class="icon">
+            <img src="react.png" alt="react" class="icon">
+            <img src="git.png" alt="git" class="icon">
+            <img src="github.png" alt="github" class="icon">
+        </div>
+        </div>
+        </div>
+        <div class="pro-cont" id="project">
+            <div class="card card1">
+                <div class="todo-content">
+                    <h2>ToDo-List</h2>
+                    <p>Create a simple ToDo-List application using HTML, CSS, and JavaScript.</p>
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Adding tasks</li>
+                        <li>Deleting tasks</li>
+                        <li>Marking tasks as completed</li>
+                    </ul>
+                    <button class="view"><a href="https://2surajagrahari.github.io/ToDo-List/"> View Project </a></button>
+                </div>
+                <div class="todo-image">
+                    <img src="Todo.png" alt="todo-list">
+                </div>
+            </div>
+
+            
+                <div class="card card2">
+                        <div class="gemini-content">
+                            <h2>Gemini Clone</h2>
+                            <p>Create a Gemini Clone using HTML, CSS, and JavaScript, React.</p>
+                            <h3>Features:</h3>
+                            <ul>
+                                <li>It can be used as a chat application</li>
+                                <li>It can be solve the problem of the user</li>
+                                <li>
+                                    It can be give certain information and solution to the user
+                                </li>
+                            </ul>
+                            <button class="view"><a href="#"> View Project </a></button>
+                        </div>
+                        <div class="gemini-image">
+                            <img src="gemini.png" alt="Project-img">
+                        </div>
+                     </div>
+                <div class="card card3">
+                    <div class="more">
+                        <span class="material-symbols-outlined" id="icon">
+                            add_circle
+                            </span>
+                        <h2>and many more...</h2>
+                    </div>
+                </div>
+        </div>
+
+        <div class="skills-cont" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-name">
+                <button class="sklbtn">
+                    UI Design
+                </button>
+                <button class="sklbtn">UX Design</button>
+                <button class="sklbtn">Front-End-Development</button>
+                <button class="sklbtn">Video Editing</button>
+                <button class="sklbtn">+ More..</button>
+            </div>
+        </div>
+        <div class="edu-cont" id="edu">
+            <h2>Degree</h2>
+            <p class="about">Lovely Professional University, Punjab India</p>
+            <p class="about">B.tech(Computer Science and Engineering) 2023 To 2027</p>
+            <h2>Certifications</h2>
+            <div class="artical-container">
+            <div class="article">
+                <div class="article-image" style="background-image: url('bits.png');"></div>
+                <div class="article-content">
+                    <h2 class="title">Bits and Bytes by Google on Coursera</h2>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-image" style="background-image: url('computer.png');"></div>
+                <div class="article-content">
+                    <h2 class="title">Computer Comunication by University of Colorado</h2>
+                    <ul>
+                        <li>Fundamentals of Network
+                            Communication</li>
+                        <li>Peer-to-Peer Protocols and
+                            Local Area Networks
+                            </li>
+                        <li>Packet Switching Networks
+                            and Algorithms</li>
+                        <li>TCP/IP and Advanced Topics
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-image" style="background-image: url('os.png');"></div>
+                <div class="article-content">
+                    <h2 class="title">Introduction to Hardware and Operating Systems by IBM on Coursera</h2>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-image" style="background-image: url('logic.png');"></div>
+                <div class="article-content">
+                    <h2 class="title">Digital Systems: From Logic Gates to Processors by Universitat Autònoma de Barcelona on Coursera</h2>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-image" style="background-image: url('arch.png');"></div>
+                <div class="article-content">
+                    <h2 class="title">Computer Architecture by Princeton University on Coursera</h2>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="contact-card" class="hidden-card">
+            <div class="card-content">
+                <span class="close-btn">&times;</span>
+                <h2>Get in Touch</h2>
+                <p>We’d love to hear from you! Please drop your details below and we’ll get back to you soon.</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="724654ea-cf34-4da5-985c-dddbc71cb482">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <span><h3 style="color: rgba(250, 175, 0, 0.914); display: flex; justify-content: center; align-items: center; padding-top: 2%;">Follow me on</h3></span>
+                <div class="socials">
+                    <a href="https://www.instagram.com/surajagrahari_01/" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suraj-kumar-agrahari-a7352a298/" target="_blank" class="linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/2Surajagrahari" target="_blank" class="github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <footer class="footer">
+            <p>Suraj Agrahari-&#169 Copyright 2025</p>
+            <div class="social">
+                <a href="https://www.instagram.com/surajagrahari_01/" target="_blank" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/suraj-kumar-agrahari-a7352a298/" target="_blank" class="linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/2Surajagrahari" target="_blank" class="github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
